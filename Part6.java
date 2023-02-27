@@ -1,41 +1,11 @@
-package comp2402w23l3;
-
-// You may not import any other classes; if you do, the autograder will fail.
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
-import java.util.Arrays;
-import java.util.Iterator;
-import java.util.ListIterator;
-import ods.ArrayDeque;
-import ods.ArrayQueue;
-import ods.ArrayStack;
-import ods.DLList;
-import ods.RootishArrayStack;
-import ods.SEList;
-import ods.SkiplistList;
-import ods.SkiplistSSet;
-import ods.SLList;
-import ods.SSet;
-import ods.ScapegoatTree;
-import ods.Treap;
 
-/**
- *  You can run this file from the command line from *outside* the comp2402w23l3 dir:
- *      % java comp2402w23l3.Part6 <input.txt> <output.txt>
- *  will take input from <input.txt> and will print to <output.txt>, or
- *      % java comp2402w23l3.Part6 <input.txt>
- *  will take input from <input.txt> and will print to the terminal, or
- *      % java comp2402w23l3.Part6
- *  will take input from the terminal and will print to the terminal.
- *  You can also run the provided python3 script that runs a suite of local tests:
- *      % python3 run_local_tests.py student_config_lab3p6.json
- *  which compiles and runs this program on the files in the tests/ directory and
- *  compares the output to the expected output in the tests/ directory.
- */
+import ods.ArrayQueue;
 
 
 public class Part6 {
